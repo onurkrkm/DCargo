@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lay_desing"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/text_desing"
+        android:text="Lütfen kargo numaranızı giriniz"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edi_desing"
+        android:textColor="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Kargo No"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_desing"
+        android:text="Lütfen Aşağıdaki işlemi yaparak robot olmadıgınız kanıtlayınız"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="170dp"
+
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/text_desing"
+            android:gravity="center"
+            android:text="A x B"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_2"
+            android:layout_width="170dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edi_desing"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:hint="Sonuç"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:text="Göster" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="241dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edi_desing"
+        android:text="açık adres veya harita" />
+
+</LinearLayout>
